@@ -2,13 +2,24 @@
 <html>
 <head>
 <title>Example document</title>
+		<link rel="stylesheet" href="colorbox.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="jquery.colorbox.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("a").colorbox({
+					width: 200,
+					height: 200
+
+				});
+			});
+			</script>
+
 </head>
 <body style="background-color: #000000">
 <p style="color: #ffffff">Example paragraph</p>
-<a href="javascript: alert('lol you clicked me!');">clicke me!</a> 
+<a href="Pug_916440.jpg">clicke me!</a> 
 
-  <img src="Pug_916440.jpg">
- 
   
 </body>
 </html>
